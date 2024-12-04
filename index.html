@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Friday Program</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo"><span class="highlight">EAT</span><span class="normal">ERY</span></div>
+      <nav>
+        <div class="hamburger-menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+              <span></span>
+            </label>
+        
+            <ul class="menu-box">
+              <li><a class="menu-item" href="#">Home</a></li>
+                    <li><a class="menu-item" href="#">About</a></li>
+                    <li><a class="menu-item" href="#">Contact</a></li>
+                    <li><a class="menu-item" href="#">Product</a></li>
+                    <li><a class="menu-item" href="#">Feature</a></li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+
+    <main class="content">
+      <div class="text">
+        <h2>BLACK FRIDAY PROGRAM<br>COUPON OPT-IN</h2>
+        
+
+        <p class="discount">Take 30% off The Healthy Home Chef Master's Program</p>
+        <div class="images mb-only">
+            <img src="images/salmon.png" alt="Salmon dish" class="image-main">
+            <img src="images/dumpling.jpg" alt="Dumplings" class="image-small top">
+            <img src="images/ham-sandwich.jpg" alt="Grilled sandwich" class="image-small bottom">
+          </div>
+        <p>
+          In this virtual series, you’ll learn how to plan, cook, and eat healthy meals
+          (on a budget and a time-crunch). We’re offering all our new students a 30% discount
+          PLUS a free bonus training video this Black Friday—that’s a savings of $500. Don’t miss out!
+        </p>
+        <button id="cta-button">
+            <span id="cta-default">Get 30% Off Now</span>
+            <span id="cta-clicked">
+                <span class="spinner"></span>
+                <span class="button-text">Check your email</span>
+                
+            </span>
+          
+        </button>
+      </div>
+
+      <div class="images desktop-only">
+        <img src="images/salmon.png" alt="Salmon dish" class="image-main">
+        <img src="images/dumpling.jpg" alt="Dumplings" class="image-small top">
+        <img src="images/ham-sandwich.jpg" alt="Grilled sandwich" class="image-small bottom">
+      </div>
+    </main>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
